@@ -130,7 +130,8 @@ section {
 /* navigation bar */
 
 nav {
-    padding: .5rem;
+    width: 100% ;
+    padding: 1rem .3rem;
     position: sticky;
     top: 0;
     z-index: 1;
