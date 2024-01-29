@@ -190,7 +190,7 @@ nav .logo:hover {
 .hero-image-section {}
 
 .hero-img {
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 .hero-text-section h1 {
@@ -408,4 +408,58 @@ nav .logo:hover {
 
 .contact-details a{
     color: #797a7a;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 996px) {
+    .hero-section .container{
+        flex-direction: column-reverse !important;
+        justify-content: center !important;
+    }
+
+    .hero-section{
+        margin-top: -6rem !important;
+    }
+    .about-section p{
+        min-width: 100%;
+        /* text-align:justify; */
+    }
+    .about-section img {
+        width: 50%;
+    }
+
+    .skill-section {
+        justify-content: space-evenly !important;
+    }
+    .portfolio-section .card{
+        min-width: 45% !important;
+        font-size: 1rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .certificate-section a{
+        width: 48% !important;
+    }
+    .contact-details h3{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .certificate-section a{
+        width: 70% !important;
+    }
+    .portfolio-section .card{
+        min-width: 100% !important;
+        font-size: .8rem !important;
+    }
+    .contact-section .item{
+        width: 70% !important;
+    }
+    .contact-details h3{
+        font-size: 1rem;
+    }
 }
